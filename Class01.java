@@ -1,7 +1,7 @@
 /**
  * 
  */
-package test1;
+package test;
 class Cal_area{ //創立物件名稱Cal_area
 	int radius;
 	int length;
@@ -21,12 +21,13 @@ class Cal_area{ //創立物件名稱Cal_area
 	}
 	public void show() {
 		System.out.println("半徑 = "+radius);
-		System.out.println("球形體積 = " + radius*radius*radius*3.14*1.33);
+		System.out.printf("球形體積 = " + "%.1f", radius*radius*radius*3.14159*4/3);
+		System.out.println();
 		System.out.println("長 = "+length + " 寬 = "+width + " 高 = "+height);
 		System.out.println("立方體表面積 = " + (length*width*2+width*height*2+height*length*2));
 	}
 }
-public class t01 {
+public class test1 {
 
 	/**
 	 * @param args
