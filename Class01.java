@@ -1,7 +1,7 @@
 /**
  * 
  */
-package test;
+package Java111Q1;
 class Cal_area{ //創立物件名稱Cal_area
 	int radius;
 	int length;
